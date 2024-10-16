@@ -1,2 +1,6 @@
 /* Add styles here */
 h1{color: brown;}
+body{font-family: Verdana, Geneva, Tahoma, sans-serif;}
+button{ 
+    background-color: aquamarine;
+}

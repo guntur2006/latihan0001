@@ -6,10 +6,30 @@
   <title>Hello World</title>
   <link href='/style.css' rel='stylesheet'>
   <style>
-    h1{color: aqua}
-    h2{color: blue;font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    h1{color: aqua ;text-shadow: 2px 2px black;}
+    h2{color: rgb(39, 39, 167);font-family: Verdana, Geneva, Tahoma, sans-serif;}
     h3{color: #56a522;font-size: 30px;}
     h4{color: #56a522 ;text-shadow: 2px 3px 8px #000}
+button{ 
+  background-color: blue; color: aliceblue;
+  padding: 10px 15px 10px 15px;
+  border: none;
+  border-radius: 15px 0;
+}
+p{font-size: 30px;color: rgb(99, 51, 51);}
+table{
+  width: 100%;
+}
+table,th,td{
+  border-bottom: 1px solid black;
+  border-collapse: collapse;
+}
+th{
+  text-align: center;
+}
+tr:hover{
+  background-color: aqua;
+}
   </style>
 </head>
 <body>
@@ -20,6 +40,52 @@
   <h5>arigato</h5>
   <h6>sama sama</h6>
   <button onclick="console.log('hello');">Press me</button>
+  <p>hal yang paling <strong>takuti adalah </strong> <br> tidak <i>dapat</i> uang jajan,apalagi di hari senin huii sangat menakutkan sekali H<sub>9</sub> yahh ,dan juga<sup>2</sup> sekarang hari rabu geys huii kwjwjw</p>
+  <p>hahhhh hari yang sangat membosankan sekali yahh geys mata mengantuk pengen tidur hari demi hari kan ku lewati selebew</p>
+ <h1>list keperluan</h1>
+  <ul>
+  <li>kol sayur</li>
+  <li>daging</li></ul>
+  <hr>
+  <ol style="color: rgb(233, 13, 68); list-style: lower-alpha;">
+    <li>daging dan sayur</li>
+    <li>kompor dan gas lpg</li>
+  </ol>
+ <p>
+  <h3>tabel harga</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>nomer</th>
+        <th>item barang</th>
+        <th>harga satuan</th>
+      </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>item barang
+        <td>satuan barang</td>
+      <td>9000</td>
+    </tr>
+    <tr>
+      <td>1.</td>
+      <td>koll</td>
+      <td>5000</td>
+    </tr>
+    <tr>
+      <td>2.</td>
+      <td>sayur hijau</td>
+      <td>6000</td>
+    </tr>
+    <tr>
+      <td>3.</td>
+      <td>sayur merah</td>
+      <td>7000</td>
+    </tr>
+  </tbody>
+  </table>
+  
+ </p>
   <script defer type="text/javascript" src="/main.js"></script>
 </body>
 </html>
