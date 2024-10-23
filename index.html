@@ -7,7 +7,29 @@
   <link href='/style.css' rel='stylesheet'>
   <style>
     label{font-size: 14px ;font-weight: bold;}
-    
+    input[type="text"],input[type=number],input[type=date],input[type=time],input[type=password]{
+      width: 100%;
+      padding: 12px 20px;
+      border-radius: 10px;
+      margin: 20px;
+      color: rgb(255, 255, 255);
+      background-color: rgb(185, 75, 75);
+      font-size: 20px;
+    }
+    select{
+      width: 100%;
+      padding: 12px 20px;
+      border-radius: 10px;
+      margin: 20px;
+      color: rgb(255, 255, 255);
+      background-color: rgb(164, 116, 204);
+      font-size: 20px;
+      
+    }
+    input[type=checkbox],input[type=radio]{
+      outline: 1px solid #be1e1e79
+    }
+
     h1{color: aqua ;text-shadow: 2px 2px black;}
     h2{color: rgb(39, 39, 167);font-family: Verdana, Geneva, Tahoma, sans-serif;}
     h3{color: #56a522;font-size: 30px;}
@@ -98,10 +120,13 @@ tr:hover{
   <input type="text" name="Txalamat" value="gogo kuy"id="txalamat"class="txalamat">
    <label>Form Number</label>
    <input type="number">
+   <br>
    <label>Form TGL</label>
    <input type="date">
+   <br>
    <labal>Form Waktu</labal>
    <input type="time">
+   <br>
    <label>Form Pilihan</label>
    <input type="radio" name="JNSK">laki-laki
    <input type="radio" name="JNSK">perempuan
@@ -110,16 +135,19 @@ tr:hover{
    <input type="checkbox">karate
    <input type="checkbox">tinju
    <input type="checkbox">Acting
+   <br>
    <label>Form pilihan</label>
-   <selec>
+   <select>
     <option> silahkan pilih warna</option>
     <option>merah</option>
     <option>biru</option>
     <option>kuning</option>
+  </select>
+  <br>
     <label>Form Password</label>
     <input type="password"name="txpass">
 <input type="submit" value="tombol">
-   </selec>
+   
  </form>
 
     
